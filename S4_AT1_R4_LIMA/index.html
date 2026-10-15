@@ -1,56 +1,204 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Página pessoal da Ligya</title>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1,0"/>
-    <meta name="description" content="Olá mundo sem maldição!"/>
-    </head>
-    <h1>Página pessoal da aluna: Ligya</h1>
-    <body style="background-color: rgb(255, 0, 119); color: white">
-        <h1>Ligya Nicolly Georges Vieira</h1>
-    </body>
-    <section>
-    <ul>
-        <h2>Dados pessoais:</h2>
 
-        <li>Idade: 16 anos</li>
-        <li>Cidade: Campinas</li>
-        <li>Telefone: 1998812-6257</li>
-        <li>Email Pessoal: ligyageorges@gmail.com</li>
-        <li>Email Profissional: ligya.vieira@edu.senai.br</li>
-        <li>Github: https://github.com/ligyanicolly</li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <h2>Sobre mim:</h2>
+    <title>Página Pessoal | Ligya Nicolly</title>
 
-        <h3>Sou estudante do curso Técnico em Desenvolvimento de Sistemas, aluna do Senai Súmare, estudo no Sesi Súmare aluna do 2º Ano do Ensino Medio e atualmente estou explorando o mundo da tecnologia.</h3>
-        <h3>Embora eu esteja mergulhando no mundo do desenvolvimento de sistemas, meu grande sonho é trilhar o caminho do Direito</h3>
+    <meta name="description" content="Conheça um pouco sobre Ligya Nicolly, seus estudos, interesses e objetivos.">
 
-        <h2> Cursos:</h2>
+    <style>
+        body {
+            background-color: #ff0077;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-        <li>curso 1: Linguagens de Marcação</li>
-        <li>curso 2: Banco de Dados</li>
-        <li>curso 3: Programção Back-END I</li>
-        <li>curso 5: Sistemas Operacionais</li>
-        <li>curso 6: Lógica de Programação e Algoritmos</li>
-        <li>curso 7: Arquitetura de Redes com IoT</li>
-        <li>curso 8: Levantamento de Requisitos</li>
+        header {
+            background-color: #d60065;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
 
-        <h2> Qualidades:</h2>
+        header h1 {
+            margin-bottom: 10px;
+        }
 
-        <li>Comunicativa</li>
-        <li>Organizada</li>
-        <li>Criativa</li>
-        <li>Responsavel</li>
-        <li>Esforçada</li>
+        header p {
+            font-size: 16px;
+        }
 
-        <h2> Hobbs:</h2>
+        main {
+            max-width: 850px;
+            margin: 25px auto;
+            padding: 0 15px;
+        }
 
-        <li>Atuar</li>
-        <li>Jogar vôlei</li>
-        <li>Maratonar Series e Filmes</li>
-        <LI>Treinar</LI>
-    </ul>
-    </ul>
-</section>
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        h2 {
+            color: #d60065;
+            border-bottom: 2px solid #ffb3d5;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #d60065;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #d60065;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .destaque {
+            background-color: #ffe0ef;
+            padding: 15px;
+            border-radius: 10px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #d60065;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Minha página pessoal</h1>
+        <p>Bem-vindos à minha página!</p>
+
+        <h2 style="color: white; border: none;">
+            Ligya Nicolly Georges Vieira
+        </h2>
+
+        <p>Estudante • Tecnologia • Futuros projetos</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Dados pessoais</h2>
+
+            <ul>
+                <li><strong>Idade:</strong> 16 anos</li>
+                <li><strong>Cidade:</strong> Campinas</li>
+                <li><strong>Telefone:</strong> 19988126257</li>
+
+                <li>
+                    <strong>E-mail pessoal:</strong>
+                    <a href="mailto:ligyageorges@gmail.com">
+                        ligyageorges@gmail.com
+                    </a>
+                </li>
+
+                <li>
+                    <strong>E-mail profissional:</strong>
+                    <a href="mailto:ligya.vieira@edu.senai.br">
+                        ligya.vieira@edu.senai.br
+                    </a>
+                </li>
+
+                <li>
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/ligyanicolly" target="_blank" rel="noopener noreferrer">
+                        github.com/ligyanicolly
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Um pouco sobre mim</h2>
+
+            <div class="destaque">
+                <p>
+                    Sou estudante do curso Técnico em Desenvolvimento
+                    de Sistemas no SENAI e também estudo no 2º ano do
+                    Ensino Médio no SESI. Atualmente, estou conhecendo
+                    melhor o mundo da tecnologia e aprendendo sobre
+                    programação e desenvolvimento de sistemas.
+                </p>
+
+                <p>
+                    Apesar de gostar da área de tecnologia, meu grande
+                    sonho é seguir a carreira de Direito. Quero continuar
+                    aprendendo, descobrindo novas oportunidades e
+                    construindo meu futuro profissional.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Cursos e conhecimentos</h2>
+
+            <ul>
+                <li>Linguagens de Marcação</li>
+                <li>Banco de Dados</li>
+                <li>Programação Back-End I</li>
+                <li>Sistemas Operacionais</li>
+                <li>Lógica de Programação e Algoritmos</li>
+                <li>Arquitetura de Redes com IoT</li>
+                <li>Levantamento de Requisitos</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Minhas qualidades</h2>
+
+            <ul>
+                <li>Comunicativa</li>
+                <li>Organizada</li>
+                <li>Criativa</li>
+                <li>Responsável</li>
+                <li>Esforçada</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Hobbies e interesses</h2>
+
+            <ul>
+                <li>Atuar</li>
+                <li>Jogar vôlei</li>
+                <li>Maratonar séries e filmes</li>
+                <li>Treinar</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Feito por Ligya Nicolly</p>
+        <p>Minha página pessoal • 2026</p>
+    </footer>
+
+</body>
+
 </html>
