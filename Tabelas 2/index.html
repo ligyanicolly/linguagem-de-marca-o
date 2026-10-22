@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha primeira tabela</title>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <hr>
+    <!-- Fieldset: dados dos clientes -->
+    <fieldset>
+        <legend>Dados do cliente</legend>
+        <form action="">
+            <label for="nome">Ligya:</label>
+            <input type="text" name="nome" id="nome">
+            <br><br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone">
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </fieldset>
+    <!-- Configuração de hardware -->
+        <fieldset>
+            <legend>Configuração de hardware</legend>
+            <label for="gpu">Escolha sua placa de vídeo:</label>
+            <p>
+            <select name="gpu" id="gpu" required>
+                <option value="">Selecione uma GPU</option>
+                <option value="gtx1060">NVIDIA GTX 1060</option>
+                <option value="gtx1070">GTX 1070</option>
+                <option value="gtx1080">GTX 1080</option>
+            </select>
+        </p>
+        <p>
+        <input type="radio" name="jogos" id="jogos" value="jogos" checked>
+        <label for="jogos">Jogos</label><br>
+        <input type="radio" name="streaming" id="objetivo" value="streaming">
+        <label for="streaming">Streaming</label><br>
+        <input type="radio" name="objetivo" id="trabalho" value="trabalho">
+        <label for="trabalho">Edição de vídeos</label><br>
+        </p>
+        </fieldset>
+    </fieldset>
+</body>
+</html>
